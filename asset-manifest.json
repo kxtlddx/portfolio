@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.63babade.css",
+    "main.js": "/portfolio/static/js/main.f3dc5db5.js",
+    "static/media/Photo2_mobile.svg": "/portfolio/static/media/Photo2_mobile.228a5d0e891f7e7c1c006711faf6a6d6.svg",
+    "static/media/Photo2_tablet.svg": "/portfolio/static/media/Photo2_tablet.327f99366e158c05d9336f1f546c7fde.svg",
+    "static/media/Photo2_desktop.svg": "/portfolio/static/media/Photo2_desktop.2cf9d97484a57c464eef0902da05b0c8.svg",
+    "static/media/Photo1_tablet.svg": "/portfolio/static/media/Photo1_tablet.2e7a2327096211644eb155aea963025b.svg",
+    "static/media/Photo1_mobile.svg": "/portfolio/static/media/Photo1_mobile.5a95f078e23914ebd81839aaba36e3d3.svg",
+    "static/media/Photo1_desktop.svg": "/portfolio/static/media/Photo1_desktop.d81952c0846503c864da57637cd5330c.svg",
+    "static/media/Background.svg": "/portfolio/static/media/Background.b1c9e74d9ef5eae0ecaecfd29a75a29b.svg",
+    "static/media/Logo.svg": "/portfolio/static/media/Logo.7bb41fdb05d93595be4ce638d311d821.svg",
+    "static/media/Brush.svg": "/portfolio/static/media/Brush.16c2db5c3a8e210a1c89c4aa180aeb0d.svg",
+    "static/media/Music.svg": "/portfolio/static/media/Music.98f06b5673268fd9801a7be54ea6cf1d.svg",
+    "static/media/Photo.svg": "/portfolio/static/media/Photo.f08daff0d5d0630b3b21a90de245abc5.svg",
+    "static/media/Menu.svg": "/portfolio/static/media/Menu.f96af2ac6166953384b5d74bcd146ea6.svg",
+    "static/media/Error.svg": "/portfolio/static/media/Error.71cec15dacf8976ce0695f85b694b4c7.svg",
+    "static/media/Plane.svg": "/portfolio/static/media/Plane.62e70257e379d61f3f234478cb2b0fbe.svg",
+    "static/media/Person.svg": "/portfolio/static/media/Person.c0b8e1247b2902c7c17b6db7def6492a.svg",
+    "index.html": "/portfolio/index.html",
+    "main.63babade.css.map": "/portfolio/static/css/main.63babade.css.map",
+    "main.f3dc5db5.js.map": "/portfolio/static/js/main.f3dc5db5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63babade.css",
+    "static/js/main.f3dc5db5.js"
+  ]
+}
