@@ -22,6 +22,12 @@
     w-full;
   }
 
+  .navbar .logo {
+    @apply
+    w-[33.06px] 
+    h-[35px]
+  }
+
   .navbar .link {
     @apply
     hover:text-lavender
@@ -39,4 +45,110 @@
     h-[1px] 
   }
 
+  .main {
+    @apply 
+    mx-auto 
+    bg-white 
+    flex 
+    relative
+    w-[320px] desktop:w-[1280px] tablet:w-[792px]
+    h-[568px] desktop:h-[832px] tablet:h-[519px]
+    pl-[15px] desktop:pl-[85px] tablet:pl-[39px];
+  }
+
+  .main .title {
+    @apply 
+    flex-col gap-1
+    pt-[27px] desktop:pt-[162px] tablet:pt-[44px];
+  }
+
+  .main .description {
+    @apply 
+    w-[230px] desktop:w-[380px] tablet:w-[380px]
+    pt-[38px] desktop:pt-[92px] tablet:pt-[36px] space-y-6
+    text-left inline-flex flex-col items-start leading-[30px] justify-center 
+  }
+
+  .about {
+    @apply h-[1364px] desktop:h-[1248px] tablet:h-[1542px]
+    w-[320px] desktop:w-[1280px] tablet:w-[792px]
+    px-[15px] desktop:px-[85px] tablet:px-[39px]
+    pt-[48px] desktop:pt-[100px] tablet:pt-[80px]
+  bg-white flex flex-col items-start self-stretch mx-auto;
+  }
+
+  .h1 {
+    @apply 
+    text-2xl desktop:text-6xl tablet:text-6xl 
+    leading-9 desktop:leading-[90px] tablet:leading-[90px]
+    font-bold;
+  }
+
+  .h2 {
+    @apply 
+    text-xl desktop:text-[32px] tablet:text-[32px]
+    font-semibold desktop:font-bold tablet:font-bold
+    leading-[30px] desktop:leading-[48px] tablet:leading-[48px]
+  }
+
+  .h3 {
+    @apply 
+    text-xl desktop:text-2xl tablet:text-2xl 
+    font-semibold desktop:font-bold tablet:font-bold
+    leading-[30px] desktop:leading-9 tablet:leading-9 
+  }
+
+  .subtitle {
+    @apply 
+    text-sm desktop:text-xl tablet:text-xl
+    font-semibold
+    leading-[21px] desktop:leading-[30px] tablet:leading-[30px]
+  }
+
+  .subtitle2 {
+    @apply 
+    text-sm desktop:text-base tablet:text-base
+    font-semibold
+    leading-[21px] desktop:leading-6 tablet:leading-6
+  }
+
+  .body_text {
+    @apply
+    text-sm desktop:text-xl tablet:text-xl
+    font-normal
+    leading-[21px] desktop:leading-[30px] tablet:leading-[30px]
+  }
+
+  .body_text2 {
+    @apply
+    text-sm desktop:text-base tablet:base
+    font-normal
+    leading-[21px] desktop:leading-6 tablet:leading-6
+  }
+
+  .get_in_touch {
+    @apply w-[139px] h-[39px]
+    desktop:w-[188px] desktop:h-[50px]
+    tablet:w-[188px] tablet:h-[50px]
+    justify-center 
+    flex 
+    items-center 
+    space-x-2 desktop:space-x-3 tablet:space-x-3 
+    rounded-full
+    bg-lavender 
+    flex-row;
+  }
+
+  .get_in_touch:hover {
+    @apply 
+    bg-lavender-dark;
+  }
+
+  .get_in_touch:active {
+    @apply 
+    border-[3px] 
+    border-[#cabffd] 
+    bg-lavender-light;
+  }
+  
 }
